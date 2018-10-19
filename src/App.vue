@@ -21,19 +21,19 @@ pprint(about_me)
 			</div>
 			<div class="text-center badges" style="margin-top:15px">
 				<a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
-					<img class="img-circle img-thumbnail" src="/storage/ext.jpg" >
+					<img class="img-circle img-thumbnail" src="/assets/ext.jpg" >
 				</a>
 				<a href="https://twitter.com/kenosando" target="_blank">
-				<img class="img-circle img-thumbnail" src="/storage/twitter.png" >
+				<img class="img-circle img-thumbnail" src="/assets/twitter.png" >
 				</a>
 				<a href="https://github.com/kenosando" target="_blank">
-					<img class="img-circle img-thumbnail" src="/storage/github.png" >
+					<img class="img-circle img-thumbnail" src="/assets/github.png" >
 				</a>
 				<a href="mailto:kenosando@outlook.com">
-					<img class="img-circle img-thumbnail" src="/storage/email.png" >
+					<img class="img-circle img-thumbnail" src="/assets/email.png" >
 				</a>
 				<a href="https://kenosando.pythonanywhere.com" target="_blank">
-					<img class="img-circle img-thumbnail" src="/storage/pythonanywhere.png" >
+					<img class="img-circle img-thumbnail" src="/assets/pythonanywhere.png" >
 				</a>
 			</div>
 		</div>
