@@ -16,10 +16,10 @@ pprint(about_me)
   'twitter' : '@kenosando',
   'github' : 'kenosando',
   'email' : 'kenosando@outlook.com' }</code></pre>
-			<div class="LI-profile-badge text-center" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenneth-sanders-b0040b13">
-				<a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>LinkedIn - Kenneth Sanders</a>
-			</div>
 			<div class="text-center badges" style="margin-top:15px">
+				<div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenneth-sanders-b0040b13">
+					<a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>LinkedIn - Kenneth Sanders</a>
+				</div>
 				<a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
 					<img class="img-circle img-thumbnail" src="/storage/ext.jpg" >
 				</a>
@@ -51,6 +51,10 @@ pprint(about_me)
 </script>
 
 <style>
+.LI-profile-badge ,
+.LI-simple-link {
+	flex-basis: 100%
+}
 .img-circle.img-thumbnail {
 	display: inline-block;
 	width: 64px;
@@ -62,8 +66,12 @@ pprint(about_me)
   border-radius: 50%;
   transition: all .2s ease-in-out;
 }
-.text-center.badges {
+.text-center{
+	text-align: center;
+}
+.badges {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 </style>
