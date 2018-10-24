@@ -1,20 +1,24 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import App from './App.vue'
+import Home from './Home.vue'
+import VueRouter from 'vue-router'
 
-const router = new Router({
-	routes: [
-		{
-			path: '/',
-			name: 'home',
-			component: App,
-		},
-	]
+Vue.use(VueRouter)
+
+
+const routes = [
+	{path :'/', component : Home}
+]
+
+const router = new VueRouter({
+	routes,
+	mode: "history"
 })
 
 new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+	router,
+	components: { 
+		"Home" : Home,
+	 }
+}).$mount("#app")
 
 hljs.initHighlightingOnLoad()
