@@ -14,7 +14,8 @@ pprint(about_me)
 'certifications' : 'Certified ScrumMaster&#174;',
 'twitter' : '@kenosando',
 'github' : 'kenosando',
-'email' : 'kenosando@outlook.com' }</code></pre>
+'email' : 'kenosando@outlook.com' }
+<span class="blinking-cursor">|</span></code></pre>
 		<div class="text-center badges" style="margin-top:15px">
 			<div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenneth-sanders-b0040b13">
 				<a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>LinkedIn - Kenneth Sanders</a>
@@ -86,4 +87,72 @@ pre > code {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+@media(max-width: 500px){
+	.img-circle.img-thumbnail {
+		width: 100%;
+	}
+}
+@media(max-width: 991px){
+	.img-circle.img-thumbnail {
+		width: 40px;
+	}
+}
+
+/* Blinking Cursor */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 90%;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
 </style>
