@@ -79,6 +79,7 @@ pre > code {
   border-radius: 50%;
   transition: all .2s ease-in-out;
 }
+
 .text-center{
 	text-align: center;
 }
@@ -96,6 +97,19 @@ pre > code {
 	.img-circle.img-thumbnail {
 		width: 40px;
 	}
+}
+
+code.python.hljs::before {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-size: 115%;
+    padding: 0 10px 0;
+    line-height: 15px;
+    height: 15px;
+    font-weight: 800;
+    content: 'python';
+    text-transform: capitalize;
 }
 
 /* Blinking Cursor */
