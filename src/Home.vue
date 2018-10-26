@@ -16,25 +16,32 @@ pprint(about_me)
 'github' : 'kenosando',
 'email' : 'kenosando@outlook.com' }
 <span class="blinking-cursor">|</span></code></pre>
-		<div class="text-center badges" style="margin-top:15px">
+		<div class="text-center" style="margin-top:15px">
 			<div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenneth-sanders-b0040b13">
 				<a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>LinkedIn - Kenneth Sanders</a>
 			</div>
-			<a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
-				<img class="img-circle img-thumbnail" src="./assets/ext.jpg" >
-			</a>
-			<a href="https://twitter.com/kenosando" target="_blank">
-			<img class="img-circle img-thumbnail" src="./assets/twitter.png" >
-			</a>
-			<a href="https://github.com/kenosando" target="_blank">
-				<img class="img-circle img-thumbnail" src="./assets/github.png" >
-			</a>
-			<a href="mailto:kenosando@outlook.com">
-				<img class="img-circle img-thumbnail" src="./assets/email.png" >
-			</a>
-			<a href="https://kenosando.pythonanywhere.com" target="_blank">
-				<img class="img-circle img-thumbnail" src="./assets/pythonanywhere.png" >
-			</a>
+      <div class="badges">
+        <a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
+          <!--<img class="img-circle img-thumbnail" src="./assets/ext.jpg" >-->
+          <i class="fas fa-certificate fa-2x fa-border" tooltip="ScrumMaster"></i>
+        </a>
+        <a href="https://twitter.com/kenosando" target="_blank">
+        <!--<img class="img-circle img-thumbnail" src="./assets/twitter.png" >-->
+        <i class="fab fa-twitter fa-2x fa-border"></i>
+        </a>
+        <a href="https://github.com/kenosando" target="_blank">
+          <!--<img class="img-circle img-thumbnail" src="./assets/github.png" >-->
+          <i class="fab fa-github fa-2x fa-border"></i>
+        </a>
+        <a href="mailto:kenosando@outlook.com">
+          <!--<img class="img-circle img-thumbnail" src="./assets/email.png" >-->
+          <i class="fas fa-at fa-2x fa-border"></i>
+        </a>
+        <a href="https://kenosando.pythonanywhere.com" target="_blank">
+          <!--<img class="img-circle img-thumbnail" src="./assets/pythonanywhere.png" >-->
+          <i class="fab fa-python fa-2x fa-border"></i>
+        </a>
+      </div>
 		</div>
 	</div>
 </template>
@@ -84,10 +91,18 @@ pre > code {
 	text-align: center;
 }
 .badges {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+.badges > a > i {
+  margin: 0 2px 0 2px;
+}
+
 @media(max-width: 500px){
 	.img-circle.img-thumbnail {
 		width: 100%;
@@ -96,7 +111,10 @@ pre > code {
 @media(max-width: 991px){
 	.img-circle.img-thumbnail {
 		width: 40px;
-	}
+  }
+  .badges {
+    width: 280px;
+  }
 }
 
 code.python.hljs::before {

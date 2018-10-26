@@ -10,7 +10,12 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "highlight.js": "^9.13.1",
+    "less": "^3.8.1",
     "npm-watch": "^0.4.0",
+    "skeleton": "^0.1.2",
     "vue": "^2.5.11"
   },
   "browserslist": [

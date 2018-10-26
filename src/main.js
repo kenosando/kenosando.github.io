@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Home from './Home.vue'
 import VueRouter from 'vue-router'
+import hljs from 'highlight.js'
 
 Vue.use(VueRouter)
 
