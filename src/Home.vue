@@ -1,7 +1,7 @@
 <template>
-	<div id="home" class="container">
-		<h1>Ken Sanders - @kenosando</h1>
-		<pre><code class="python">from kenosando import about_me
+  <div id="home" class="container">
+    <h1>Ken Sanders - @kenosando</h1>
+    <pre><code class="python">from kenosando import about_me
 from pprint import pprint
 pprint(about_me)
 
@@ -16,10 +16,10 @@ pprint(about_me)
 'github' : 'kenosando',
 'email' : 'kenosando@outlook.com' }
 <span class="blinking-cursor">|</span></code></pre>
-		<div class="text-center" style="margin-top:15px">
-			<div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenneth-sanders-b0040b13">
-				<a class="LI-simple-link" target="_blank" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>LinkedIn - Kenneth Sanders</a>
-			</div>
+    <div class="text-center" style="margin-top:15px">
+      <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="kenneth-sanders-b0040b13">
+        <a class="LI-simple-link" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>Kenneth Sanders</a>
+      </div>
       <div class="badges">
         <a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
           <!--<img class="img-circle img-thumbnail" src="./assets/ext.jpg" >-->
@@ -42,42 +42,42 @@ pprint(about_me)
           <i class="fab fa-python fa-2x fa-border"></i>
         </a>
       </div>
-		</div>
-	</div>
+    </div>
+  </div>
 </template>
 
 <script>
-	export default {
-		data () {
-			return {
-				posts: []
-			}
-		},
-		updated: function() {
-			hljs.initHighlightingOnLoad()
-		}
-	}
+  export default {
+    data () {
+      return {
+        posts: []
+      }
+    },
+    updated: function() {
+      hljs.initHighlightingOnLoad()
+    }
+  }
 </script>
 
 <style>
 pre > code {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .LI-profile-badge ,
 .LI-simple-link {
-	flex-basis: 100%;
-	margin-bottom: 5px;
+  flex-basis: 100%;
+  margin-bottom: 5px;
 }
 .LI-view-profile {
-	margin-right: 100% !important;
+  margin-right: 100% !important;
 }
 .LI-logo {
-	margin-left: 100% !important;
+  margin-left: 100% !important;
 }
 .img-circle.img-thumbnail {
-	display: inline-block;
-	width: 64px;
+  display: inline-block;
+  width: 64px;
   max-width: 100%;
   padding: 4px;
   line-height: 1.42857143;
@@ -88,15 +88,15 @@ pre > code {
 }
 
 .text-center{
-	text-align: center;
+  text-align: center;
 }
 .badges {
   width: 330px;
   margin-left: auto;
   margin-right: auto;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .badges > a > i {
@@ -104,13 +104,13 @@ pre > code {
 }
 
 @media(max-width: 500px){
-	.img-circle.img-thumbnail {
-		width: 100%;
-	}
+  .img-circle.img-thumbnail {
+    width: 100%;
+  }
 }
 @media(max-width: 991px){
-	.img-circle.img-thumbnail {
-		width: 40px;
+  .img-circle.img-thumbnail {
+    width: 40px;
   }
   .badges {
     width: 280px;
