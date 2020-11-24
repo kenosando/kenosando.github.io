@@ -13,7 +13,7 @@
     "@devpodio/font-awesome-webpack": "^1.0.0",
     "event-stream": "^3.3.5",
     "font-awesome": "^4.7.0",
-    "highlight.js": "^9.18.1",
+    "highlight.js": "^10.1.2",
     "less": "^3.11.1",
     "npm-watch": "^0.4.0",
     "skeleton": "^0.1.2",
