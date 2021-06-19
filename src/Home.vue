@@ -21,9 +21,9 @@ pprint(about_me)
         <a class="LI-simple-link" href='https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge'>Kenneth Sanders</a>
       </div>
       <div class="badges">
-        <a href="https://certification.scrumalliance.org/accounts/822710-ken-sanders/certifications/933051-csm" target="_blank">
+        <a href="https://www.credly.com/badges/aab39649-0186-4376-90d0-668041c19bfe" target="_blank">
           <!--<img class="img-circle img-thumbnail" src="./assets/ext.jpg" >-->
-          <i class="fas fa-certificate fa-2x fa-border" tooltip="ScrumMaster"></i>
+          <i class="fab fa-aws fa-2x fa-border" tooltip="AWS Certified Solutions Architect"></i>
         </a>
         <a href="https://twitter.com/kenosando" target="_blank">
         <!--<img class="img-circle img-thumbnail" src="./assets/twitter.png" >-->

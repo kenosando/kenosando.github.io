@@ -43,7 +43,7 @@
     "sass-loader": "^6.0.6",
     "vue-loader": "^15.9.1",
     "vue-router": "^3.1.6",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.14",
     "webpack": "^5.36.2",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
