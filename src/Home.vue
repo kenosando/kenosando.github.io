@@ -17,9 +17,10 @@ pprint(about_me)
 'email' : 'kenosando@outlook.com' }
 <span class="blinking-cursor">|</span></code></pre>
     <div class="text-center" style="margin-top:15px">
-      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="kenneth-sanders-b0040b13" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge">Kenneth Sanders</a></div>
-			<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="kenneth-sanders-b0040b13" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge">Kenneth Sanders</a></div>
 			<div class="badges">
+        <a href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge" target="_blank">
+          <i class="fab fa-linkedin fa-2x fa-border" tooltip="LinkedIn"></i>
+        </a>
         <a href="https://www.credly.com/badges/aab39649-0186-4376-90d0-668041c19bfe" target="_blank">
           <!--<img class="img-circle img-thumbnail" src="./assets/ext.jpg" >-->
           <i class="fab fa-aws fa-2x fa-border" tooltip="AWS Certified Solutions Architect"></i>
