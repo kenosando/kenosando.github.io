@@ -5,18 +5,19 @@
 from pprint import pprint
 pprint(about_me)
 
-{ 'languages' : ['Python','BASH','JavaScript','HTML/CSS','PHP','SQL'],
+{ 'languages' : ['Python','BASH','JavaScript','HTML/CSS','PHP','SQL','C#'],
 'specialties' : ['Web Development',
                  'Web Scraping',
                  'Scripting',
                  'Linux SysAdmin',
                  'DBA'],
-'certifications' : 'Certified ScrumMaster&#174;',
+'certifications' : 'AWS Certified Solutions Architect',
 'twitter' : '@kenosando',
 'github' : 'kenosando',
 'email' : 'kenosando@outlook.com' }
 <span class="blinking-cursor">|</span></code></pre>
     <div class="text-center" style="margin-top:15px">
+      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="kenneth-sanders-b0040b13" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge">Kenneth Sanders</a></div>
 			<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="kenneth-sanders-b0040b13" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge">Kenneth Sanders</a></div>
 			<div class="badges">
         <a href="https://www.credly.com/badges/aab39649-0186-4376-90d0-668041c19bfe" target="_blank">
