@@ -1,20 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kenosando</title>
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer="" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <style>
     </style>
-  </head>
+  <style type="text/css">
+pre > code {
+  margin-left: auto;
+  margin-right: auto;
+}
+.LI-profile-badge ,
+.LI-simple-link {
+  flex-basis: 100%;
+  margin-bottom: 5px;
+}
+.LI-view-profile {
+  margin-right: 100% !important;
+}
+.LI-logo {
+  margin-left: 100% !important;
+}
+.img-circle.img-thumbnail {
+  display: inline-block;
+  width: 64px;
+  max-width: 100%;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+.text-center{
+  text-align: center;
+}
+.badges {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.badges > a > i {
+  margin: 0 2px 0 2px;
+}
+@media(max-width: 500px){
+.img-circle.img-thumbnail {
+    width: 100%;
+}
+}
+@media(max-width: 991px){
+.img-circle.img-thumbnail {
+    width: 40px;
+}
+.badges {
+    width: 280px;
+}
+}
+code.python.hljs::before {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    font-size: 115%;
+    padding: 0 10px 0;
+    line-height: 15px;
+    height: 15px;
+    font-weight: 800;
+    content: 'python';
+    text-transform: capitalize;
+}
+
+/* Blinking Cursor */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 90%;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes "blink" {
+from, to {
+    color: transparent;
+}
+50% {
+    color: black;
+}
+}
+@-moz-keyframes blink {
+from, to {
+    color: transparent;
+}
+50% {
+    color: white;
+}
+}
+@-webkit-keyframes "blink" {
+from, to {
+    color: transparent;
+}
+50% {
+    color: white;
+}
+}
+@-ms-keyframes "blink" {
+from, to {
+    color: transparent;
+}
+50% {
+    color: white;
+}
+}
+@-o-keyframes "blink" {
+from, to {
+    color: transparent;
+}
+50% {
+    color: white;
+}
+}
+
+</style><style>/* Copyright (C) Microsoft Corporation. All rights reserved. */
+
+.msreadout-word-highlight:not(.msreadout-inactive-highlight) {
+    background: #ffff00 !important;
+    color: black !important;
+}
+
+.msreadout-line-highlight:not(.msreadout-inactive-highlight) {
+    background: #b2d6f3 !important;
+    color: black !important;
+}
+
+@media screen and (-ms-high-contrast: active) {
+    .msreadout-word-highlight:not(.msreadout-inactive-highlight) {
+        -ms-high-contrast-adjust: none;
+        background-color: Highlight !important;
+        color: HighlightText !important;
+    }
+
+    .msreadout-line-highlight:not(.msreadout-inactive-highlight) {
+        -ms-high-contrast-adjust: none;
+        background: yellow !important;
+        color: black !important;
+    }
+}</style></head>
   <body>
-    <div id="app" class="base">
-      <router-view :key="$route.path"></router-view>
-    </div>
-    <script src="/dist/build.js"></script>
-  </body>
-</html>
+    <div id="app" class="base"><div id="home" class="container"><h1>Ken Sanders - @kenosando</h1> <pre><code class="python hljs"><span class="hljs-keyword">from</span> kenosando <span class="hljs-keyword">import</span> about_me
+<span class="hljs-keyword">from</span> pprint <span class="hljs-keyword">import</span> pprint
+pprint(about_me)
+
+{ <span class="hljs-string">'languages'</span> : [<span class="hljs-string">'Python'</span>,<span class="hljs-string">'BASH'</span>,<span class="hljs-string">'JavaScript'</span>,<span class="hljs-string">'HTML/CSS'</span>,<span class="hljs-string">'PHP'</span>,<span class="hljs-string">'SQL'</span>,<span class="hljs-string">'C#'</span>],
+<span class="hljs-string">'specialties'</span> : [<span class="hljs-string">'Web Development'</span>,
+                 <span class="hljs-string">'Web Scraping'</span>,
+                 <span class="hljs-string">'Scripting'</span>,
+                 <span class="hljs-string">'Linux SysAdmin'</span>,
+                 <span class="hljs-string">'DBA'</span>],
+<span class="hljs-string">'certifications'</span> : <span class="hljs-string">'AWS Certified Solutions Architect'</span>,
+<span class="hljs-string">'twitter'</span> : <span class="hljs-string">'@kenosando'</span>,
+<span class="hljs-string">'github'</span> : <span class="hljs-string">'kenosando'</span>,
+<span class="hljs-string">'email'</span> : <span class="hljs-string">'kenosando@outlook.com'</span> }
+<span class="blinking-cursor">|</span></code></pre> <div class="text-center" style="margin-top: 15px;"><div class="badges"><a href="https://www.linkedin.com/in/kenneth-sanders-b0040b13?trk=profile-badge" target="_blank"><i tooltip="LinkedIn" class="fab fa-linkedin fa-2x fa-border"></i></a> <a href="https://www.credly.com/badges/aab39649-0186-4376-90d0-668041c19bfe" target="_blank"><i tooltip="AWS Certified Solutions Architect" class="fab fa-aws fa-2x fa-border"></i></a> <a href="https://twitter.com/kenosando" target="_blank"><i class="fab fa-twitter fa-2x fa-border"></i></a> <a href="https://github.com/kenosando" target="_blank"><i class="fab fa-github fa-2x fa-border"></i></a> <a href="mailto:kenosando@outlook.com"><i class="fas fa-at fa-2x fa-border"></i></a> <a href="https://kenosando.pythonanywhere.com" target="_blank"><i class="fab fa-python fa-2x fa-border"></i></a></div></div></div></div>
+</body></html>
